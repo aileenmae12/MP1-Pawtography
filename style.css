@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    background-color:#ddd1c8;
+  }
+  
+  .btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #323232;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    align-items: center; 
+    justify-content: center;
+ }
+  
+  .btn:hover {
+    color: #ffffff;
+    background: #4a484a;
+    text-decoration: none;
+  }
+
+  .navbar-nav > li{
+    padding-left:15x;
+    padding-right:15px;
+    margin-bottom: 18px;
+  } 
+
+  .h1-carousel{
+    font-family: 'URW Chancery L', cursive; 
+    font-size: 50px;
+    color: #ffffff;
+    margin-top: 50px;
+  }
+
+#logoname{
+  font-family: 'Great Vibes', cursive;
+  font-size: 25px;
+  color: #323232;
+  font-weight:900;
+}
+
+  .container {
+    max-width: 800px;
+   
+  }
+
+  h1 {
+    font-size: 32px;
+    color: #333;
+    font-family: Apple Chancery, cursive;
+  }
+
+  #p1 {
+    font-size: 18px;
+    color: #000000;
+    line-height: 1.5;
+  }
+
+  #p2 {
+    text-align: center;
+  }
+
+  .about-image {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .about-image img {
+    max-width: 100%;
+    height: auto;
+
+  }
+
+  .my-form {
+    color: #000000;
+    border-color: #323232;
+    
+ }
+ .my-form .btn-default {
+    background-color: #323232;
+    color: #fff;
+    border-radius: 28px;
+    border-color: #323232;
+ } 
+ .my-form .btn-default:hover {
+    background-color: #514e4e;
+    color: #fff;
+ }
+ .my-form .form-control {
+    border-radius: 0;
+ }
+ .conn{
+  font-family: Apple Chancery, cursive;
+  padding-top: 15px;
+  font-size: 30px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.column img{
+  transition: transform .5s ease;
+}
+
+.column:hover img{
+  transform: scale(1.25);
+}
+
+.row{
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.theme-text {
+  color: #333;
+}
+
+.card-img-top {
+  height: 200px;
+  width: 100%;
+}
+.card {
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.card:hover {
+  color: white;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  left: -100%;
+  top: 0%;
+  background: #1b1c21;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  z-index: -1;
+}
+.card:hover::before {
+  left: 0%;
+  color: white;
+}
+.container-fluid {
+  background-image: url("blob-scene-haikei.svg");
+  background-position: center;
+  background-size: cover;
+}
+
+.question {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.answer {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+
+@media screen  and (max-width: 768px) {
+  .column{
+    width: 100%;
+  }
+}
